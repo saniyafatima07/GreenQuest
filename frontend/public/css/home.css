@@ -1,0 +1,136 @@
+h1 {
+    color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 60px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(28, 74, 28);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* overflow: hidden; */
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-list li {
+    margin-right: 50px;
+  }
+  
+  .nav-list li a {
+    color: rgb(238, 228, 228);
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .nav-list li a:hover {
+    color: rgb(68, 157, 129);
+  }
+  
+  .right-nav {
+    margin-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border: none;
+  }
+  
+  @media screen and(max-width: 500px) {
+    .navbar {
+      float: none;
+      display: flex;
+    }
+  }
+  body{
+    background-image: url('https://i.pinimg.com/originals/8d/d9/b6/8dd9b6e70ab1a43414c7450b6fc0f044.png');
+  }
+  
+  #btn1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+  }
+  
+  
+  #align1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  
+  /* Style the button */
+  #btn {
+    background: linear-gradient(135deg, #25a436aa, #065833);
+  height: 90px;
+  width: 280px;
+  font-family: 'Courier New', Courier, monospace;
+  /* Gradient background */
+  color: white;
+  /* White text */
+  font-size: 25px;
+  /* Slightly larger text */
+  font-weight: bold;
+  border: none;
+  /* Remove default border */
+  border-radius: 30px;
+  /* Rounded corners for a pill shape */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Soft shadow for depth */
+  cursor: pointer;
+  /* Pointer cursor for interaction */
+  transition: all 0.3s ease;
+  /* Smooth transition for changes */
+  text-transform: uppercase;
+  /* Make text uppercase */
+  letter-spacing: 2px;
+  text-decoration: none;
+  /* Spaced-out letters for a clean look */
+}
+
+/* Hover effect for the button */
+#btn:hover {
+  transform: translateY(-4px);
+  /* Button raises slightly when hovered */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  /* Increased shadow on hover */
+  background: linear-gradient(135deg, #4ed525, #7ddc4d);
+  /* Reversed gradient */
+}
+
+/* Focus effect for accessibility */
+#btn:focus {
+  outline: none;
+  /* Remove the default outline */
+  box-shadow: 0 0 0 4px rgba(255, 123, 95, 0.5);
+  /* Add a soft outline when focused */
+}
+
+
+#motive{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  /* Adjust the size as needed */
+  color: #2e8b57;
+  /* A green shade to match the theme */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  /* Adds a slight shadow for depth */
+  text-align: center;
+  /* Centers the text */
+  margin-top: 50px;
+}

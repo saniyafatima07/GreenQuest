@@ -1,0 +1,101 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/030/188/941/small_2x/green-leaves-garden-environment-ecology-concept-abstract-greenery-background-generative-ai-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.form-wrapper {
+    background-color: rgba(118, 191, 93, 0.9);
+    color: #053f1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    color: #114c2d;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="text"], 
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d0e8d0;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #00ff99;
+}
+
+#btn {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2b8c2e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #78d27b;
+}
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    form {
+      width: 80vw;
+    }
+  
+    input[type="submit"] {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  
+    form {
+      width: 80vw;
+      padding: 1rem;
+    }
+  
+    input[type="submit"] {
+      width: 80%;
+    }
+}
