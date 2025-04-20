@@ -1,6 +1,6 @@
-# TrashCollector ♻️
+# GreenQuest ♻️
 
-TrashCollector is a simple yet impactful web application aimed at promoting responsible waste management in local communities. The project focuses on helping users locate nearby waste collection points, schedule pickups, and raise awareness about proper waste disposal.
+GreenQuest is a simple yet impactful web application aimed at promoting responsible waste management in local communities. The project focuses on helping users locate nearby waste collection points, schedule pickups, and raise awareness about proper waste disposal.
 
 ## 🌟 Features
 
