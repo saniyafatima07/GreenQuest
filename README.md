@@ -4,9 +4,9 @@ TrashCollector is a simple yet impactful web application aimed at promoting resp
 
 ## 🌟 Features
 
-- 📍 Enables users to locate the trash
-- 🗓️ Schedule trash pickups with ease
-- 🧠 Educational tips for sustainable waste disposal
+- 📍 Enables users to locate the trash easily.
+- 🗓️ Schedule trash pickups with ease.
+- 🧠 Educational tips for sustainable waste disposal.
 
 ## 🚀 Tech Stack
 
